@@ -1,2 +1,4 @@
-// module #1
-console.log('module1 stuff');
+// module #1 - jquery
+
+var $ = require('jquery');
+$('h1').html("new text");
